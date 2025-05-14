@@ -22,8 +22,9 @@ from io import BytesIO
 from elevenlabs import VoiceSettings
 from elevenlabs.client import ElevenLabs
 #--------------------------------------------------------------
-openai.api_key = "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"
-client = ElevenLabs(api_key="sk_1f699fefd718619c8118e053d76548f111a13f84074597cc",)
+
+openai.api_key = os.getenv('OPENAI_API_KEY')
+client = ElevenLabs(api_key="ELEVEN_KEY")
 #----------------------------------------------------------------
 import whisper
 global modelo
