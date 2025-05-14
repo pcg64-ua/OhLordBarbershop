@@ -1,0 +1,19 @@
+En base al texto anterior, identifica cual de las siguientes opciones es la intencion del usuario. Devuelve SÓLO el identificador de la intención. Nada el número que representa a la intención, nada más.
+El listado es: 
+1: Insultar
+2: Terminar la conversacion (El usuario puede usar expresiones como: "No, gracias, eso era", "eso es todo","no, nada mas")
+3: Reservar una cita
+4: Cambiar o reprogramar una cita
+5: Cancelar una cita
+6: Consultar una cita ya realizada y reservada
+7: Poner una reclamacion
+8: Consultar información sobre el horario de la peluquería
+9: Consultar la ubicación de la peluquería
+10: Consultar ofertas disponibles
+11: El usuario se desvía de la conversación
+12: Consultar los precios
+13: Consultar los servicios ofrecidos como cortes de pelo, tintes...
+14: Solicitar información de contacto
+15: No tiene una intención clara
+16: Consultar los huecos disponibles que hay para un dia en concreto: el usuario quiere saber la disponibilidad un dia en concreto. Por ejemplo:
+el usuario puede usar frases como: que huecos teneis disponibles para el dia X, cuando me podríais atender el día X, hay algún hueco para el día X?
